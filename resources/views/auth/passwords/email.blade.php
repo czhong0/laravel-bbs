@@ -23,8 +23,8 @@
 
                         @if ($errors->has('email'))
                             <span class="form-text">
-                              <strong>{{ $errors->first('email') }}</strong>
-                            </span>
+              <strong>{{ $errors->first('email') }}</strong>
+            </span>
                         @endif
                     </div>
 
